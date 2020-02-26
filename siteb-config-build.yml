@@ -1,0 +1,7 @@
+---
+- name: Deploy site Web infrstructue
+  hosts: localhost
+  become: yes
+
+  roles:
+    - apache-simple
